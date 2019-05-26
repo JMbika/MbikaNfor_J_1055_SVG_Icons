@@ -1,0 +1,70 @@
+body{font-size: 16px;}
+
+.hidden {display: none;}
+
+main {
+	width: 1080px;
+	padding: 0 0 10px 0;
+	margin: 0 auto;
+	/* border is temp -> just to see site dimensions */
+	border: thin dashed #333;
+}
+
+.main-headline {
+    text-align: center;
+    margin: 20px 0 60px;
+    font-size: 2.5rem;
+}
+
+#raster-vector h3{margin: 20px; text-align: center;}
+
+#icon-sets-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: red;
+    margin-bottom: 40px;
+}
+
+#icon-sets{
+    display: flex;
+	flex-direction: row;
+	width: 1080px;
+	justify-content: space-between;
+    background-color: white;
+}
+
+#icon-sets li{
+    display: flex;
+	flex-direction: column;
+    width: 330px;
+    height: 300px;
+    padding: 1px;
+    background-color: #ddd;
+    border: 1px #ddd;
+}
+
+li .image-container {
+    width: 330px;
+    height: 250px;
+    background-color:#000;
+}
+
+li .icon-set-info {
+    width: 330px;
+    height: 50px;
+    border: thin #333;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img{
+    width: 100%;
+    min-width: 155px;
+    max-width: 660px;
+    align-self: center;
+}
