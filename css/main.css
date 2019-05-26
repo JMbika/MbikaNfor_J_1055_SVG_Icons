@@ -68,3 +68,56 @@ h3 {
     max-width: 660px;
     align-self: center;
 }
+
+/* GET INVOVE PAGE */
+
+#icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+#icon-list{
+    display: flex;
+	flex-direction: row;
+	width: 600px;
+	justify-content: space-between;
+    background-color: white;
+}
+
+#icon-list li{
+    display: flex;
+	flex-direction: row;
+    width: 100px;
+    height:100px;
+    padding: 1px;
+    align-self: center;
+}
+
+svg {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+#icon-volunteer{
+    background-size: 100px 100px;
+}
+
+#membership:hover {opacity:1;fill:red;}
+#donate:hover {opacity:1;fill:green;}
+#shop:hover {opacity:1;fill:orange;}
+#volunteer:hover{opacity:1;fill:blue;}
+
+/* CONTACT information */
+#office:hover {opacity:1;fill:red;}
+#phone:hover {opacity:1;fill:green;}
+#email:hover {opacity:1;fill:orange;}
+
+/* WHAT WE DO*/
+#breeding:hover {opacity:1;fill:blue;}
+#fishing:hover {opacity:1;fill:green;}
+#cleaning:hover {opacity:1;fill:orange;}
